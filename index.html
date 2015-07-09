@@ -1,1 +1,362 @@
-Teste
+<!DOCTYPE>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>MRº Moonrise</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <link href="css/main.css" rel="stylesheet">
+        <link href="css/animate.css" rel="stylesheet">	
+        <link href="css/responsive.css" rel="stylesheet">
+
+
+        <!--[if lt IE 9]>
+                <script src="js/html5shiv.js"></script>
+                <script src="js/respond.min.js"></script>
+        <![endif]-->       
+        <link rel="shortcut icon" href="images/ico/favicon.ico">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.1/jquery.min.js"></script> 
+      
+    </head><!--/head-->
+    <body>
+        <header id="header" role="banner">		
+            <div class="main-nav">
+                <div class="container">
+                    <div class="header-top">
+                        <div class="pull-right social-icons">
+                            <a href="https://www.youtube.com/channel/UCCMzy5A_3gY2VForCbnQXDg" target="_blank"><i class="fa fa-youtube"></i></a>
+                            <a href="http://www.twitter.com/MoonriseMr" target="_blank"><i class="fa fa-twitter"></i></a>
+                            <a href="http://www.facebook.com/mrmoonrise" target="_blank"><i class="fa fa-facebook"></i></a>
+                            <a href="http://www.instagram.com/mrmoonrise" target="_blank"><i class="fa fa-instagram"></i></a>
+                        </div>
+                    </div>     
+                    <div class="row">	        		
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="index.html">
+                                <img class="img-responsive" src="images/logo.png" alt="logo" style="margin-left: 50px;">
+                            </a>                    
+                        </div>
+                        <div class="collapse navbar-collapse">
+                            <ul class="nav navbar-nav navbar-right">                 
+                                <li class="scroll active"><a href="#home">Inicio</a></li>
+                                <li class="scroll"><a href="#explore">Eventos</a></li>                         
+                                <li class="scroll"><a href="#event">Integrantes</a></li>
+                                <li class="scroll"><a href="#about">Sobre</a></li>                     
+                                <li class="scroll"><a href="#contact">Contato</a></li>       
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>                    
+        </header>
+        <section id="home">	
+            <div id="main-slider" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#main-slider" data-slide-to="0" class="active"></li>
+                    <li data-target="#main-slider" data-slide-to="1"></li>
+                    <li data-target="#main-slider" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img class="img-responsive" src="images/slider/bg12.jpg" alt="slider">						
+                        <div class="carousel-caption">
+                            <a href="#contact">GRAB YOUR TICKETS <i class="fa fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img class="img-responsive" src="images/slider/bg2.jpg" alt="slider">	
+                        <div class="carousel-caption">
+                            <a href="#contact">GRAB YOUR TICKETS <i class="fa fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img class="img-responsive" src="images/slider/bg3.jpg" alt="slider">	
+                        <div class="carousel-caption">
+                            <a href="#contact" >GRAB YOUR TICKETS <i class="fa fa-angle-right"></i></a>
+                        </div>
+                    </div>				
+                </div>
+            </div>    	
+        </section>
+
+        <section id="explore">
+            <div class="container">
+                <div class="row">
+                    <div class="watch">
+                        <img class="img-responsive" src="images/watch.png" alt="">
+                    </div>				
+                    <div class="col-md-4 col-md-offset-2 col-sm-5">
+                        <h2>Próximo evento</h2>
+                    </div>				
+                    <div class="col-sm-7 col-md-6">					
+                        <ul id="countdown">
+                            <li>					
+                                <span class="days time-font">00</span>
+                                <p>dias </p>
+                            </li>
+                            <li>
+                                <span class="hours time-font">00</span>
+                                <p class="">horas </p>
+                            </li>
+                            <li>
+                                <span class="minutes time-font">00</span>
+                                <p class="">minutos</p>
+                            </li>
+                            <li>
+                                <span class="seconds time-font">00</span>
+                                <p class="">segundos</p>
+                            </li>				
+                        </ul>
+                    </div>
+                </div>
+                <div class="cart">
+                    <a href="#"><i class="fa fa-shopping-cart"></i> <span>Compre Aqui!</span></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="event">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-9">
+                        <div id="event-carousel" class="carousel slide" data-interval="false">
+                            <h2 class="heading">Integrantes</h2>
+                            <a class="even-control-left" href="#event-carousel" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+                            <a class="even-control-right" href="#event-carousel" data-slide="next"><i class="fa fa-angle-right"></i></a>
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <div class="single-event">
+                                                <img id="contatosFotos" class="img-responsive" src="images/integrantes/fernando.jpg" alt="event-image">
+                                                <h4>Fernando Borgman</h4>
+                                                <h5>Vocal / Base Guitar</h5>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="single-event">
+                                                <img id="contatosFotos" class="img-responsive" src="images/integrantes/gabriel.jpg" alt="event-image">
+                                                <h4>Gabriel Triani</h4>
+                                                <h5>Drums</h5>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="single-event">
+                                                <img id="contatosFotos" class="img-responsive" src="images/integrantes/skid.jpg" alt="event-image">
+                                                <h4>Wolnei Skid</h4>
+                                                <h5>Bass</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <div class="single-event">
+                                                <img id="contatosFotos" class="img-responsive" src="images/integrantes/marcelo.jpg" alt="event-image" id="integrantes" />
+                                                <h4>Marcelo</h4>
+                                                <h5>Bass</h5>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="single-event">
+                                                <!--   <img class="img-responsive" src="images/event/event2.jpg" alt="event-image">
+                                                  <h4>Mike Shinoda</h4>
+                                                  <h5>vocals, rhythm guitar</h5>--> 
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="single-event">
+                                                <!--  <img class="img-responsive" src="images/event/event3.jpg" alt="event-image">
+                                                  <h4>Gabriel Triani</h4>
+                                                  <h5>drums</h5>--> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="guitar">
+                        <img class="img-responsive" src="images/guitar.png" alt="guitar">
+                    </div>
+                </div>			
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="guitar2">				
+                <img class="img-responsive" src="images/guitar2.jpg" alt="guitar">
+            </div>
+            <div class="about-content">					
+                <h2>Sobre Mr-Moonrise</h2>
+                <p>Banda de rock de Jaraguá do Sul - SC, formada em 2015, com o intuito de oferecer sonorização profissional para casas e pubs, bem como eventos particulares em geral. A banda conta com duas formações:
+                    Completa: Apresentando um repertório composto basicamente de Nickelback e Foo Fighters, com algumas composições clássicas de outros grupos de rock. Banda muito bem ensaiada com vocais e backings afinados e instrumental entrosado. Uma ótima opção para agitar a sua festa e fazer o público curtir uma noite de puro rock!
+                    Acústico: Clássicos de todas as épocas do rock apresentados em formato de Duo Acústico, contando com backings bem trabalhados. É a pedida certa para eventos que necessitam de som ambiente ou até mesmo datas que necessitem de um som acústico com qualidade profissional!</p>
+                <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#basicModal2">Confira nosso repertório de show</a>
+                <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#basicModal">Confira nosso repertório acústico</a>
+            </div>
+        </section><!--/#about-->
+        <section id="contact">
+            <div class="contact-section">
+                <div class="ear-piece">
+                    <img class="img-responsive" src="images/ear-piece.png" alt="">
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-3 col-sm-offset-4">
+                            <div class="contact-text">
+                                <h3>Contato</h3>
+                                <address>
+                                    E-mail: fernando@gmail.com<br>
+                                    Telefone: +55 (47) 8916-7023<br>
+                                </address>
+                            </div>
+                        </div>
+                        <div class="col-sm-5">
+                            <div id="contact-section">
+                                <h3>CONTRATAR</h3>
+                                <div class="status alert alert-success" style="display: none"></div>
+                                <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="sendemail.php">
+                                    <div class="form-group">
+                                        <input type="text" name="name" class="form-control" required="required" placeholder="Nome">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" name="email" class="form-control" required="required" placeholder="E-Mail">
+                                    </div>
+                                    <div class="form-group">
+                                        <textarea name="message" id="message" required="required" class="form-control" rows="4" placeholder="Digite sua mensagem!"></textarea>
+                                    </div>                        
+                                    <div class="form-group">
+                                        <button type="submit" class="btn btn-primary pull-right">Enviar</button>
+                                    </div>
+                                </form>	       
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>		
+        </section>
+        <!--/#contact-->
+        <footer id="footer">
+            <div class="container">
+                <div class="text-center">
+                    <p> Copyright  &copy;2015<a target="_blank" href="http://ueuetech.com"> <img src="//ueuetech.com/site/wp-content/uploads/2015/05/11209393_851895808209857_7286352341286733521_n2.jpg" style="width: 80px"></a>
+
+                </div>
+            </div>
+        </footer>
+<div class="modal fade" id="basicModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+            <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+            </div>
+            <div class="modal-body">
+                <h3 style="color: black; text-align: center">Repertorio</h3>
+                <pre>
+America - Horse With no Name
+The Animals – The House of the rising sun
+Audioslave – Like a stone
+Beatles - Revolution
+Beatles - Come together
+Bee Gees – Massachussets
+Bob Dylan – Knocking on heavens door
+Bon Jovi - Wanted Dead or Alive
+Bon Jovi – It's My life
+Bon Jovi – Livin on a Prayer
+Bon Jovi – Missunderstood
+Bryan Adams - Summer of  69
+Bryan adams - Heaven
+Cassia Eller – Segundo sol
+ColdPlay – Yellow
+ColdPlay – In my place
+Creedence – Have You Ever Seen The Rain
+David Bowie – Starman
+David Bowie – The man who sold the world
+Eagles 	- Take it Easy
+Eagles – Hotel California
+Engenheiros do Hawaii – Eu que não amo você
+Engenheiros do Hawaii – Negro amor
+Engenheiros do Hawaii – O papa é pop
+Eric Clapton - Cocaine
+Eric Clapton -	Layla
+Eric clapton - tears in heaven
+Extreme – More Than words
+Foo Fighter - Best of you
+Foo Fighter – Times Like These
+Guns n Roses – Patience
+Johny Cash - You are my sunshine
+kiss - forever
+Kiss - we are one
+Led Zeppelin – Stairway to heaven
+Lynyrd Skynyrd – Freebrid
+Nando Reis – Por onde andei
+Oasis - Don't Look Back in Anger
+Oasis – Wonderwall
+Pearl Jam – Black
+Pearl Jam – Last Kiss
+Pink Floyd – Time
+Pink Floyd – Wish you were here
+The Police - Every breath you take
+Raul – Gita
+REM – Losing My Religion
+Red Hot Chilli Peppers – Under the bridge
+Rolling Stones – Like a Rolling Stone
+Scorpions – Wind of change
+                </pre>  
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+            </div>
+        </div>
+    </div>
+</div>
+        <div class="modal fade" id="basicModal2" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+            <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+            </div>
+            <div class="modal-body">
+                <h3 style="color: black; text-align: center">Repertório Show</h3>
+                <pre>
+  
+
+Foo Fighters - Best of You 
+Foo Fighters - Times like these
+Nickelback - How you remind me
+Nickelback - Never gonna be alone
+Nickelback - Photograph
+                </pre>  
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+            </div>
+        </div>
+    </div>
+</div>
+      
+    <!--/#footer-->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/smoothscroll.js"></script>
+    <script type="text/javascript" src="js/jquery.parallax.js"></script>
+    <script type="text/javascript" src="js/coundown-timer.js"></script>
+    <script type="text/javascript" src="js/jquery.scrollTo.js"></script>
+    <script type="text/javascript" src="js/jquery.nav.js"></script>
+    <script type="text/javascript" src="js/main.js"></script> 
+    </body>
+</html>
